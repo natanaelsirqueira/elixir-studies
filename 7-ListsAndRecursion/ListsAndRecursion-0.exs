@@ -34,4 +34,4 @@ IO.inspect Enum.reduce(list, {0, 1}, fn (current, {sum, product}) ->
 end
 )
 
-# IO.inspect !Enum.reduce(bools, &Kernel.&&/2)
+IO.inspect !Enum.reduce(bools, &Kernel.&&/2)
